@@ -1,0 +1,54 @@
+
+    {"targets": {
+      "target1": {
+        "title": "Khame",
+        "info": "High-quality leather target",
+        "image": "https://example.com/khame.jpg",
+        "price": 29999999999999999999999999999
+      },
+      "target2": {
+        "title": "Stylish Watch",
+        "info": "Waterproof and elegant design",
+        "image": "https://example.com/watch.jpg",
+        "price": 99999999999999999999999
+      },
+      "target4": {
+        "title": "Khame",
+        "info": "High-quality leather target",
+        "image": "https://example.com/khame.jpg",
+        "price": 298888888888888899
+      },
+      "target3": {
+        "title": "Stylish Watch",
+        "info": "Waterproof and elegant design",
+        "image": "https://example.com/watch.jpg",
+        "price": 9995555555555555555555559
+      },
+      "target6": {
+        "title": "Khame",
+        "info": "High-quality leather target",
+        "image": "https://example.com/khame.jpg",
+        "price": 2988888888888888888888888899
+      },
+      "target7": {
+        "title": "Stylish Watch",
+        "info": "Waterproof and elegant design",
+        "image": "https://example.com/watch.jpg",
+        "price": 99888888888888888888888888899
+      },
+      "target8": {
+        "title": "Khame",
+        "info": "High-quality leather target",
+        "image": "https://example.com/khame.jpg",
+        "price": 298888888888888888889
+      },
+      "target9": {
+        "title": "Stylish Watch",
+        "info": "Waterproof and elegant design",
+        "image": "https://example.com/watch.jpg",
+        "price": 99888888888888888888888888888899
+      }
+
+    }
+  }
+  

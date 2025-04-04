@@ -1,0 +1,136 @@
+.product-detail-container {
+    max-width: 100%;
+    margin:auto 100px ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 768px) {
+    .product-detail-container {
+      flex-direction: row;
+     
+    }
+  }
+  @media (max-width: 768px) {
+    .product-detail-container {
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+    }
+  }
+  
+  
+  .product-info,
+  .reviews-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .product-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .product-info img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .product-info .price {
+    font-size: 20px;
+    color: #0070f3;
+    font-weight: bold;
+  }
+  
+  .product-info button {
+    padding: 10px 20px;
+    background: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .product-info button:hover {
+    background: #005bb5;
+  }
+  
+  .reviews-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .review {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .review .user {
+    font-weight: bold;
+  }
+  
+  .review .rating {
+    color: #fbbf24;
+  }
+  
+  .review-form textarea,
+  .review-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .review-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .review-form button:hover {
+    background: #15803d;
+  }
+  
+
+  .star-rating-input {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 24px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .star {
+    color: #ccc;
+    transition: color 0.2s ease !important;
+  }
+
+
+  /* When selected or hovered */
+.star.selected,
+.star:hover,
+.star:hover ~ .star {
+  color: #FFD700;
+  
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+}
+  

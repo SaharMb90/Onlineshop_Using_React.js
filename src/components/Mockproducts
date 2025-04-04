@@ -1,0 +1,18 @@
+const MockProducts = [
+  {
+    id: "1",
+    title: "Stylish Watch",
+    description: "Waterproof and elegant design",
+    image: "https://picsum.photos/200",
+    price: 99.99,
+  },
+  {
+    id: "2",
+    title: "Leather Bag",
+    description: "High-quality leather bag with elegant design",
+    image: "https://picsum.photos/200",
+    price: 150.0,
+  },
+];
+
+export default MockProducts;
